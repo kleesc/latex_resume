@@ -1,0 +1,138 @@
+\documentclass[10pt, letterpaper]{article}
+
+%\usepackage{showframe}
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[protrusion=true, expansion=true]{microtype}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\def\COL{2.1}
+% \renewcommand{\familydefault}{\sfdefault}
+% \renewcommand\familydefault{\sfdefault} 
+\pagenumbering{gobble}
+
+\begin{document}
+
+
+% ======
+% HEADER
+% ======
+\begin{center}
+  \textbf{Your Name Goes Here}
+  \rule{\textwidth}{0.4mm}
+  Your Address \\
+  City, Province, Country  \\
+  +5 555-555-5555 \\
+  \href{mailto:your.mail@email.com}{your.mail@email.com} \\
+  \url{http://www.yourwebsite.net}
+  \rule{\textwidth}{0.4mm}
+\end{center}
+
+\noindent Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\section*{Education}
+% =========
+% FIRST
+% =========
+\noindent\enskip\textsc{Some University} \hfill City, State, Country
+\medskip
+
+\begin{tabular}{p{\COL cm}|l}
+  {\hfill Current} & \textbf{Bachelor of Something - Concentration} \\
+  {\hfill    date} & G.P.A. (Last year) : 4/4 \\
+  {\hfill        } & C.G.P.A. : 4/4
+\end{tabular}
+\medskip
+
+% =========
+% SECOND
+% =========
+\noindent\enskip\textsc{Another University} \hfill City, State, Country
+\medskip
+
+\begin{tabular}{p{\COL cm}|l} 
+  {\hfill 2012} & \textbf{Bachelor of ... - Concentration} \\
+  {\hfill 2011} & G.P.A. (Last year) : 4/4
+\end{tabular}
+\medskip
+
+\section*{Experience}
+\noindent\enskip\textsc{Your Employer}
+\medskip
+
+\begin{tabular}{p{\COL cm} l} 
+  {\hfill} & \textbf{Your job title ...}
+\end{tabular}
+
+\begin{tabular}{p{\COL cm}|l} 
+  {\hfill 2013} & \textbf{Your Employer} \\
+  {\hfill} & $\bullet$ Accomplishment1 \\
+  {\hfill} & $\bullet$ Accomplishment2 ...
+\end{tabular}
+\medskip
+
+
+\section*{Projects}
+% =========
+% A Project
+% =========
+\noindent\enskip\textsc{SomeProjectYouWorkedOn}\hfill \url{http://www.urltogithubrepo.net}
+\medskip
+
+\begin{tabular}{p{\COL cm}|l} 
+  {\hfill 2013} & \textbf{Description} \\
+  {\hfill} & $\bullet$ Feature 1 \\
+  {\hfill} & $\bullet$ Feature 2 ...
+\end{tabular}
+\medskip
+
+% ===============
+% Another Project
+% ===============
+\noindent\enskip\textsc{AnotherPorjectYouWorkedOn}\hfill \url{http://www.urltogithubrepo.net}
+\medskip
+
+\begin{tabular}{p{\COL cm}|l} 
+  {\hfill Present} & \textbf{Description} \\
+  {\hfill} & $\bullet$ Feature 1 \\
+  {\hfill 2013} & $\bullet$ Feature 2 \\
+  {\hfill} & $\bullet$ Feature 3 \\
+  {\hfill} & $\bullet$ Feature 4 \\
+  {\hfill} & $\bullet$ Some other feature...
+\end{tabular}
+
+
+\section*{Skills}
+\indent
+\indent
+\begin{tabular}{p{\COL cm}|l}
+  {\hfill Programming} & Python, Java, C, etc \\
+  {\hfill Frameworks} & NodeJS, Rails and Whatnot \\
+  {\hfill Other} & Other skills you might have
+\end{tabular}
+
+
+\section*{Personal}
+\indent
+\indent
+%==========
+% Languages
+%==========
+\begin{tabular}{p{\COL cm}|l}
+  \multicolumn{1}{l}{}&\multicolumn{1}{l}{\textbf{Communication Skills}} \\
+  {\hfill Native}   & French, English, Hindi \\
+  {\hfill Beginner} & Japanese, Chinese, German
+\end{tabular}
+
+\bigskip
+% =========
+% Interests
+% =========
+\begin{tabular}{p{\COL cm}|l}
+  \multicolumn{1}{l}{}&\multicolumn{1}{l}{\textbf{Interests}} \\
+                      & Interest1, Interest2, Interest3...
+\end{tabular}
+
+\end{document}

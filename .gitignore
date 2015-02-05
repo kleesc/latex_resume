@@ -1,0 +1,5 @@
+# Generated files from pdflatex #
+*.aux
+.log
+.out
+auto/
